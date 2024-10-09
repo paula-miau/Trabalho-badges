@@ -1,0 +1,53 @@
+:root {
+    --arredondamento: 10px;
+    --cor-primaria: black;
+}
+
+.borda {
+   background-color: #a9a587;
+   border-radius: 8px;
+   padding: 15px;
+}
+
+p {
+    margin: 0;
+    font-weight: bold;
+    color: var(--cor-primaria);
+
+}
+
+.ferias {
+    background-color: orange;
+    color: var(--cor-primaria);
+    padding: 5px  14px;
+    border-radius: var(--arredondamento);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.casa {
+    background-color: pink;
+    color: var(--cor-primaria);
+    padding: 5px  14px;
+    border-radius: var(--arredondamento);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.trabalho {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 5px  14px;
+    border-radius: var(--arredondamento);
+    text-decoration: none;
+    margin: 5px;
+}
+
+.titulo {
+    width: 30px;
+  fill: #730071;
+}
+
+.conteudo2 {
+    margin-top: 10px;
+}
